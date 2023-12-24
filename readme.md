@@ -1,23 +1,24 @@
 # Flixx App
 
-Movie info application built with vanilla JavaScript that uses **version 3** of the [TMDB API](https://developers.themoviedb.org/3)
+Um simples AppWeb que foi realizado usando puramente vanilla Javascript (sem frameworks),
+juntamente com a versão 3 do [TMDB API](https://developers.themoviedb.org/3)
 
-This is part of my **Modern JS From The Beginning 2.0** course
+Esse projeto faz parte do curso **Modern JS From The Beginning 2.0** 
 
 <img src="images/screen.jpg" width="500">
 
-This includes the most populr movies and TV shows with detail pages, a search box for movies and shows with full pagination and a slider for movies that are currently playing in theaters. The slider uses the [Swiper](https://swiperjs.com) library.
+O projeto inclui os filmes e séries mais populares da atualidade, um campo de pesquisa para busca de filmes e seriados com uma página completa de retorno. Um slider logo abaixo com os filmes que estão atualmente em cartaz no cinema. O slider usa a biblioteca [Swiper](https://swiperjs.com).
 
-## Usage
+## Instruções
 
-Just clone or download and then register for a free API key at https://www.themoviedb.org/settings/api
+Faça o clone ou o download completo desse repositório, depois registre uma API gratuita no seguinte 
+endereço: https://www.themoviedb.org/settings/api
 
+Após obter a sua chave API, adicione em `api.apiKey` no global da página.
 Once you get your key, just add it to the `api.apiKey` value in the global state at the top.
 
-**Note:** If you are using this as a production project, you should not store this in the client. You can create a proxy server and store your key there. I may add that to the repo later on.
+**Nota:** Se você quiser usar esse projeto como produção, você não deve armazenar no cliente. Você deve criar um Servidor Proxy e guardar a sua chave API lá.
 
-I also may convert this to use a module bundler such as Vite or Webpack.
 
 ## Theme (HTML & CSS)
-
-I also included the theme here for you to download. It does not include any JavaScript at all. This is what you should use if you are following along with the course.
+Aqui também há um tema com o HTML e CSS, sempre aconselhável mudar o tema para o projeto atual.
